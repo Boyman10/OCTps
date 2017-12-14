@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements">
+  <uml:Model xmi:id="_v0LXcOEOEee_6MkCKXeM8Q" name="OCTps">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Szn84OEPEee_6MkCKXeM8Q">
+      <body>Système de command en ligne de pizzas&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="__NPhQOEQEee_6MkCKXeM8Q">
+      <body>Site Internet&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_nSh_IOEREee_6MkCKXeM8Q">
+      <body>Diagramme de Contexte de l'étude de cas d'une pizzeria&#xD;
+avec commande en ligne et préparation avec livraison sur place</body>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_waqvsOEOEee_6MkCKXeM8Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_wa9DkOEOEee_6MkCKXeM8Q">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EbtcIOEPEee_6MkCKXeM8Q" name="Site Internet"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_d3lZkOEPEee_6MkCKXeM8Q" name="Patron"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_jUTg8OEPEee_6MkCKXeM8Q" name="Client">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_XDSl0OEQEee_6MkCKXeM8Q" annotatedElement="_jUTg8OEPEee_6MkCKXeM8Q">
+        <body>Client</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HmgSQOEREee_6MkCKXeM8Q" name="Client"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_I97YMOEREee_6MkCKXeM8Q" name="Boss"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Qm6i0OEREee_6MkCKXeM8Q" name="Employees"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_T53hUOEREee_6MkCKXeM8Q" name="Preperator"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_ZdwAoOEREee_6MkCKXeM8Q" name="Consortium Pizzerias France"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wadUUOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wahlwOEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_waja8OEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_waja8eEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wameQOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wameQeEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wameQuEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wanFUOEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wanFUeEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wanFUuEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wansYOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wansYeEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_waoTcOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_waoTceEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_waoTcuEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_waoTc-EOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wao6gOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wao6geEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_waphkOEOEee_6MkCKXeM8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_waphkeEOEee_6MkCKXeM8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_ExWU8OEPEee_6MkCKXeM8Q" base_Class="_EbtcIOEPEee_6MkCKXeM8Q"/>
+  <ModelElements:ElementGroup xmi:id="__NW2AOEQEee_6MkCKXeM8Q" base_Comment="__NPhQOEQEee_6MkCKXeM8Q" name="Site Internet"/>
+</xmi:XMI>
