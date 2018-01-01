@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hzt_MO8EEee3Xu0cSAu_nA" name="activities_uml">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_fyny4O8FEee3Xu0cSAu_nA">
+    <body>Acteurs principaux&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_hWD7kO8FEee3Xu0cSAu_nA">
+    <body>Acteurs secondaires&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_68sXgO8FEee3Xu0cSAu_nA">
+    <body>Diagramme de Contexte&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_STeQsO8GEee3Xu0cSAu_nA" annotatedElement="_Htiz0O8GEee3Xu0cSAu_nA">
+    <body>Subject node&#xD;
+</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Model" xmi:id="_MO-pkO8EEee3Xu0cSAu_nA" name="Model1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RNfyAO8EEee3Xu0cSAu_nA" name="Patron"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_R6xHsO8EEee3Xu0cSAu_nA" name="Employé"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TH2JYO8FEee3Xu0cSAu_nA" name="&lt;&lt;Consortium>>"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ecnpQO8FEee3Xu0cSAu_nA" name="Client"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Htiz0O8GEee3Xu0cSAu_nA" name="Site internet"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NDGjQO8GEee3Xu0cSAu_nA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aRwV4O8GEee3Xu0cSAu_nA" memberEnd="_aR2cgO8GEee3Xu0cSAu_nA _aR4RsO8GEee3Xu0cSAu_nA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aR0AQO8GEee3Xu0cSAu_nA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aR0nUO8GEee3Xu0cSAu_nA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aR2cgO8GEee3Xu0cSAu_nA" name="site internet" type="_Htiz0O8GEee3Xu0cSAu_nA" association="_aRwV4O8GEee3Xu0cSAu_nA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aR4RsO8GEee3Xu0cSAu_nA" name="patron" type="_RNfyAO8EEee3Xu0cSAu_nA" association="_aRwV4O8GEee3Xu0cSAu_nA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dNypMO8GEee3Xu0cSAu_nA" memberEnd="_dN0eYO8GEee3Xu0cSAu_nA _dN1FcO8GEee3Xu0cSAu_nA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dNz3UO8GEee3Xu0cSAu_nA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dNz3Ue8GEee3Xu0cSAu_nA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dN0eYO8GEee3Xu0cSAu_nA" name="site internet" type="_Htiz0O8GEee3Xu0cSAu_nA" association="_dNypMO8GEee3Xu0cSAu_nA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dN1FcO8GEee3Xu0cSAu_nA" name="employé" type="_R6xHsO8EEee3Xu0cSAu_nA" association="_dNypMO8GEee3Xu0cSAu_nA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fdFyUO8GEee3Xu0cSAu_nA" name="association" memberEnd="_fdHngO8GEee3Xu0cSAu_nA _fdIOkO8GEee3Xu0cSAu_nA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fdHAcO8GEee3Xu0cSAu_nA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fdHAce8GEee3Xu0cSAu_nA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fdHngO8GEee3Xu0cSAu_nA" name="site internet" type="_Htiz0O8GEee3Xu0cSAu_nA" association="_fdFyUO8GEee3Xu0cSAu_nA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fdIOkO8GEee3Xu0cSAu_nA" name="client" type="_ecnpQO8FEee3Xu0cSAu_nA" association="_fdFyUO8GEee3Xu0cSAu_nA"/>
+  </packagedElement>
+</uml:Model>
